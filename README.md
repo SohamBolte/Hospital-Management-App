@@ -14,4 +14,31 @@ Before you begin, ensure you have the following installed:
     MongoDB (local instance or MongoDB Atlas)
     Git
 
-    
+Project Structure
+
+    hospital-management-app/
+    ├── backend/
+    │   ├── controllers/
+    │   ├── models/
+    │   ├── routes/
+    │   ├── server.js
+    │   └── .env
+    └── frontend/
+        ├── public/
+        ├── src/
+        │   ├── components/
+        │   ├── pages/
+        │   ├── App.js
+        │   └── index.js
+        └── package.json  
+
+
+
+Technologies Used
+_Frontend_:
+    React.js
+    Axios for HTTP requests
+    React Router for navigation
+_Backend_:
+    MongoDB
+    Node.js
