@@ -2,9 +2,9 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const bodyParser = require('body-parser');
-const patientsRouter = require('/Users/soham/Desktop/Time Pass/hospital_management/routes/patients');
-const doctorsRouter = require('/Users/soham/Desktop/Time Pass/hospital_management/routes/doctors.js');
-const appointmentsRouter = require('/Users/soham/Desktop/Time Pass/hospital_management/routes/appointments'); // Fixed variable name
+const patientsRouter = require('./routes/patients');
+const doctorsRouter = require('./routes/doctors.js');
+const appointmentsRouter = require('./routes/appointments'); // Fixed variable name
 
 const app = express();
 const PORT = process.env.PORT || 5000;
